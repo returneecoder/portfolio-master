@@ -1,0 +1,23 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "React/Material",
+            "description": "React, JSX, Material, Jest",
+            "url": "https://github.com/returneecoder/React-material"
+        },
+        {
+            "cover": "/portfolio/1/two.png",
+            "title": " react hooks",
+            "description": "React, Material",
+            "url": "https://github.com/returneecoder/Rick-and-morty"
+        },
+        {
+            "cover": "/portfolio/1/three.png",
+            "title": "Git Hub Finder",
+            "description": "React, JSX,",
+            "url": "https://github.com/returneecoder/GitHub-Finder"
+        }
+        
+    ]
+}

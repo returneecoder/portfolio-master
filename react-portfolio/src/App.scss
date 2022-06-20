@@ -1,0 +1,149 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+    url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input,
+textarea {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+    /*position: relative;*/
+    /*overflow: hidden;
+    top: 0px;
+  }
+  .bg {
+    font-size: 43vW;
+    top: 33px;
+    right: -5%;
+  }
+  .tags {
+    margin-left: 10px;
+    left: 0;
+  }
+  .top-tags {
+    bottom: auto;
+    top: 76px;
+  }
+  .bottom-tags {
+    position: absolute;
+    clear: both;
+    float: left;
+    margin-top: 22px;
+    bottom: 0;
+  }
+  .text-zone {
+    position: static !important;
+    max-height: auto;
+    min-height: 350px;
+    float: left;
+    margin-left: 10%;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    margin-top: 170px;
+    p {
+      font-size: 16px !important;
+    }
+  }
+  .preloader .inner > .logo {
+    float: none;
+  }
+  .text-zone {
+    position: static !important;
+    max-height: auto;
+    min-height: 350px;
+    float: left;
+    margin-left: 10%;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 54px !important;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  .bg {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 49vw;
+    width: 100vw;
+    margin-top: calc(50vh - 10vw);
+    text-align: center;
+    transform: rotateZ(-18deg) rotateY(-30deg);
+    background: linear-gradient(60deg, #fc0853 10%, #fc0853 63%, #08fdd8 63%, #08fdd8 72%);
+    color: #fff;
+    
+    animation: 5s BeProud linear 1, 2.5s Always ease alternate 2;
+    z-index: -1;
+    width: 432px;
+    height: 574px;
+    position: absolute;
+    top: 57%;
+    right: 15%;
+    bottom: 0;
+    left: 22%;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+ */
